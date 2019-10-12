@@ -4,89 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel = 'stylesheet' href = './css/reset.css'></link>
+  <link rel = 'stylesheet' href = './css/layout.css'></link>
+  <link rel = 'stylesheet' href = './css/style.css'></link>
   <title>Document</title>
 </head>
 <body>
-  <table>
-    <header>
-      <div class= "container">
-        <div class = "Title">
-          <H1> Projects
-        </div>
+  <header>
+    <div class = 'container'>
+      <h1 class = 'pageTitle'>
+
+          Projects And Assignments
+
+      </h1>
+    </div>
+
+  </header>
+
+  <main>
+    <div class = 'container clear-fix'>
+      <div id = "app-display" class = 'app-display clear-fix'>
       </div>
-    </header>
+    </div>
+  </main>
 
-    <main>
-        <div class = "main-container">
-          <table>
-            <thead>
-              <td>Project Name</td>
-              <td> Demo </td>
-              <td> Source Code </td>
-              <td> Status </td>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  Tutangle
-                </td>
-                <td>
-                  <a href = 'https://prashishmsingh.github.io/Tutangle/'>DEMO </a>
-                </td>
-                <td>
-                  <a href = 'https://github.com/PrashishMSingh/Tutangle'>SOURCE CODE </a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  DECOBLOG
-                </td>
-                <td>
-                  <a href = "https://prashishmsingh.github.io/Project_1/"> DEMO </a>
-                </td>
-                <td>
-                  <a href = "https://github.com/PrashishMSingh/Project_1"> SOURCE CODE </a>
-                </td>
-                <td>
-                  Completed
-                </td>
-              </tr>
-              <tr>
-                <td> Carousel</td>
-                <td><a href = "https://prashishmsingh.github.io/Carousel/"> DEMO </a>
-                <td><a href = "https://github.com/PrashishMSingh/Carousel"> SOURCE CODE </a>
-                <td>For Review</td>
-              </tr>
+  <footer>
 
-              <tr>
-                <td> Collision Detection</td>
-                <td><a href = "https://prashishmsingh.github.io/CollisionDetection/"> DEMO </a>
-                <td><a href = "https://github.com/PrashishMSingh/CollisionDetection"> SOURCE CODE </a>
-                <td>Completed</td>
-              </tr>
+  </footer>
 
-              <tr>
-                <td> Bug Smasher</td>
-                <td><a href = "https://prashishmsingh.github.io/AntSmasher/"> DEMO </a>
-                <td><a href = "https://github.com/PrashishMSingh/AntSmasher"> SOURCE CODE </a>
-                <td>Completed</td>
-              </tr>
-
-              <tr>
-                <td> Ant Smasher</td>
-                <td><a href = "https://prashishmsingh.github.io/AntSmasher_2/"> DEMO </a>
-                <td><a href = "https://github.com/PrashishMSingh/AntSmasher_2"> SOURCE CODE </a>
-                <td>Completed</td>
-              </tr>
-
-            </tbody>
-        </table>
-        </div>
-    </main>
-    <footer>
-    </footer>
-
-
-
+  <script src = './js/projectData.js'></script>
+  <script src = './js/projectsRenderer.js'></script>
 </body>
 </html>

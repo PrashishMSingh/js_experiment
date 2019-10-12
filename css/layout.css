@@ -1,0 +1,56 @@
+header{
+
+}
+
+header h1{
+  line-height: 90px;
+}
+.container{
+  width : 75em;
+  margin: auto;
+  text-align:center;
+}
+
+.app-display{
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.clear-fix:before, .clear-fix:after{
+  content: '';
+  display: table;
+  clear: both
+}
+
+
+.projects-tab ul{
+  display:inline;
+}
+
+.projects-tab ul li{
+  list-style : none;
+  float: left;
+}
+
+.project-wrapper{
+  border-top: 1px solid #0D99F3;
+  padding: 20px;
+}
+
+table{
+  margin: 0px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  border: 10px solid #125AE9;
+}
+
+table tbody{
+  background-color: #fcfcfc;
+}
+
+table thead{
+  background-color: #125AE9
+}

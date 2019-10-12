@@ -1,0 +1,63 @@
+a{
+  text-decoration: none;
+}
+
+.projects-tab ul li{
+  list-style : none;
+  float: left;
+}
+
+.projects-tab ul li a{
+  line-height: 20px;
+  margin-bottom: 2px;
+  padding: 0 20px;
+  font-size: 12px;
+  display: block;
+  color: #424242;
+  background-color: #ffff;
+}
+
+/* .projects-tab ul > :first-child li a{
+  border-left: 0px;
+} */
+
+.projects-tab ul .active{
+  background-color: #125AE9;
+}
+.projects-tab ul li:hover a , .projects-tab ul .active a{
+  color:#125AE9;
+}
+
+table thead tr td{
+  color: #fcfcfc;
+  font-weight: bold;
+}
+
+table tbody tr td, table thead tr td{
+  min-width: 30px;
+  line-height: 40px;
+  font-size : 12px;
+  padding: 0 10px;
+}
+
+table tbody tr .name{
+  text-align:left;
+  width : 300px;
+}
+
+.linkBtn{
+  display:block;
+  background-color: #2E2E2E;
+  border-radius: 5px;
+  width:100%;
+}
+
+.linkBtn a{
+  color: #fcfcfc;
+  line-height: 20px;
+}
+
+.pageTitle{
+  color: #125AE9;
+  text-align:center;
+}
