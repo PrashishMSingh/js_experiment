@@ -71,11 +71,17 @@ table tbody tr .name{
   margin-left: 20px;
 }
 
-.user-name a{
-  color: #fcfcfc;
+.user-name{
   font-weight: bold;
 }
 
-.user-name a:hover{
+.view-profile a{
+  font-size: 12px;
+}
+.view-profile a, .user-name{
+  color: #fcfcfc;
+}
+
+.view-profile a:hover{
   color: #5DADE2;
 }
