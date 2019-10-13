@@ -2,6 +2,11 @@ a{
   text-decoration: none;
 }
 
+header h1{
+  line-height: 90px;
+  font-size: 24px;
+}
+
 .projects-tab ul li{
   list-style : none;
   float: left;
@@ -40,9 +45,10 @@ table tbody tr td, table thead tr td{
   padding: 0 10px;
 }
 
+
 table tbody tr .name{
   text-align:left;
-  width : 300px;
+  width : 70%;
 }
 
 .linkBtn{
@@ -58,6 +64,18 @@ table tbody tr .name{
 }
 
 .pageTitle{
-  color: #125AE9;
-  text-align:center;
+  color: #fcfcfc;
+  text-align:left;
+  display:inline;
+  float: left;
+  margin-left: 20px;
+}
+
+.user-name a{
+  color: #fcfcfc;
+  font-weight: bold;
+}
+
+.user-name a:hover{
+  color: #5DADE2;
 }

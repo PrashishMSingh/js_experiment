@@ -1,21 +1,35 @@
+
+
 header{
+  padding-top: 40px;
 
 }
 
-header h1{
-  line-height: 90px;
+header .container{
+  background-color:#125AE9;
+  border-radius: 10px 10px 0 0;
 }
+
 .container{
   width : 75em;
   margin: auto;
-  text-align:center;
 }
 
+body{
+  background: #dcdcdc;
+}
+
+main{
+  background-color
+}
+
+
 .app-display{
-  width: 70%;
   margin: auto;
   padding: 10px;
-  margin-top: 40px;
+  margin-top: 10px;
+  background: #ffffff;
+  border-radius: 0 0 10px 10px;
 }
 
 .clear-fix:before, .clear-fix:after{
@@ -53,4 +67,24 @@ table tbody{
 
 table thead{
   background-color: #125AE9
+}
+
+.profile-wrapper{
+  display: block;
+  float: right;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic{
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  float:left;
+  margin:0 10px;
+}
+
+.profile-pic img{
+  border-radius: 50%;
 }
