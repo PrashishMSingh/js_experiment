@@ -56,7 +56,7 @@ const projectData = {
           name : 'Car Racer',
           demo : 'https://prashishmsingh.github.io/Car-game/',
           code : 'https://github.com/PrashishMSingh/Car-game',
-        },
+        }
       ]
     }
   }
