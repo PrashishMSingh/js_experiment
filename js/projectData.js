@@ -51,6 +51,12 @@ const projectData = {
           demo : 'https://prashishmsingh.github.io/AntSmasher/',
           code : 'https://github.com/PrashishMSingh/AntSmasher',
         },
+        {
+          id : 2,
+          name : 'Car Racer',
+          demo : 'https://prashishmsingh.github.io/Car-game/',
+          code : 'https://github.com/PrashishMSingh/Car-game',
+        }
       ]
     }
   }
