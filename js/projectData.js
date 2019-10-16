@@ -56,6 +56,12 @@ const projectData = {
           name : 'Car Racer',
           demo : 'https://prashishmsingh.github.io/Car-game/',
           code : 'https://github.com/PrashishMSingh/Car-game',
+        },
+        {
+          id : 3,
+          name : 'Car Racer',
+          demo : 'https://prashishmsingh.github.io/FlappyBird/',
+          code : 'https://github.com/PrashishMSingh/FlappyBird',
         }
       ]
     }
