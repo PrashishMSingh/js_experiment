@@ -59,7 +59,7 @@ const projectData = {
         },
         {
           id : 3,
-          name : 'Car Racer',
+          name : 'Flappy Bird',
           demo : 'https://prashishmsingh.github.io/FlappyBird/',
           code : 'https://github.com/PrashishMSingh/FlappyBird',
         }
