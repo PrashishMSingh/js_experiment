@@ -40,6 +40,12 @@ const projectData = {
           demo : 'https://prashishmsingh.github.io/AntSmasher_2/',
           code : 'https://github.com/PrashishMSingh/AntSmasher_2',
         },
+        {
+          id : 4,
+          name : 'Helix Animation',
+          demo : 'https://prashishmsingh.github.io/HelixAnimation/',
+          code : 'https://github.com/PrashishMSingh/HelixAnimation',
+        }
       ]
     },
     games :{
@@ -62,7 +68,7 @@ const projectData = {
           name : 'Flappy Bird',
           demo : 'https://prashishmsingh.github.io/FlappyBird/',
           code : 'https://github.com/PrashishMSingh/FlappyBird',
-        }
+        }        
       ]
     }
   }
