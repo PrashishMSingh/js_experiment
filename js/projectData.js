@@ -68,7 +68,13 @@ const projectData = {
           name : 'Flappy Bird',
           demo : 'https://prashishmsingh.github.io/FlappyBird/',
           code : 'https://github.com/PrashishMSingh/FlappyBird',
-        }        
+        },
+        {
+          id : 4,
+          name : 'GTA 2',
+          demo : 'https://prashishmsingh.github.io/GTA_2/',
+          code : 'https://github.com/PrashishMSingh/GTA_2',
+        }   
       ]
     }
   }
